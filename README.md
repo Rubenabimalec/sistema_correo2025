@@ -137,7 +137,7 @@ mail-system/
 
 ---
 
-## ⚙ Instalación
+##  Instalación
 
 ### 1. Clonar el repositorio
 
@@ -160,9 +160,9 @@ pip install -r requirements.txt
 Crear el archivo `.env`:
 
 ```env
-DATABASE_URL=postgresql://postgres:password@localhost:5432/maildb
+DATABASE_URL=postgresql
 SECRET_KEY=super_secret_key
-ALGORITHM=HS256
+ALGORITHM=H
 ACCESS_TOKEN_EXPIRE_MINUTES=60
 ```
 
